@@ -6,6 +6,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
   <body>
@@ -31,34 +32,39 @@
             <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-md-12 text-center">
-                    <h1 class="display-1">Christina Grimsell</h1>
-                    <h4>Experience is my teacher</h4>
+                    <h1 class="display-1" data-aos="zoom-in">Christina Grimsell</h1>
+                    <h4 data-aos="fade-right">Experience is my teacher</h4>
                 </div>
             </div>
         </div>
           </header>
           <section id="me">
-            <h1 class="section-title">Vem är Christina?</h1>
+            <h1 class="section-title" data-aos="zoom-in">Vem är Christina?</h1>
             <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
-                    <img src="images/header.jpg" class="img-fluid" alt="">
+                    <img src="images/header.jpg" class="img-fluid" alt="" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                 </div>
-                <div class="col-md-6 my-auto">
-                    <h3></h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <div class="col-md-6" data-aos="zoom-in">
+                                          <p>Så länge jag kan minnas, har jag varit en vetgirig och nyfiken person. Nyfiken på min omgivning, naturen,  människan och relationer. Allra minst nyfiken på vem jag själv är. Hur jag blev som jag blev och hur jag formar och skapar den jag vill vara.
+                      Skrivandet, rörelse i form av dans och annan fysisk aktivitet och uttryck, har varit min ventil genom livet.</p>
+                      <p>Jag är den som gillar att socialisera i olika sammanhang och event. Samtidigt som skogen, mossan, träden, vatten, eld och berg, är där jag känner mig som mest hemma. Så har det varit sedan barnsben och har kommit att bli en del av min identitet.
+                        Jag är dotter till fler, mamma till två och god vän till många. 
+                        </p>
+                    <p>Genom mitt företagande hoppas jag kunna inspirera och berika människor att våga mötas och samtala mera med varandra. På sätt som kanske inte alltid faller sig naturligt och tillgängligt i det samhälle vi idag är en del av. Jag vill främja och uppmuntra till mod att våga möta varandra. Med en strävan av att ta del av och att dela med sig av det vi alla har gemensamt. Livet! Vågar du lyssna och möta en anna medmänniskas historia?</p>
                 </div>
             </div>
         </div>
           </section>
           <section id="lectures">
-            <h1 class="section-title text-white">Mina föreläsningar</h1>
+            <h1 class="section-title text-white" data-aos="fade-right">Mina föreläsningar</h1>
             <div class="container">
-            <div class="row g-5 py-5">
+            <div class="row py-5">
                 <div class="col-md-12 my-auto">
                   <div class="row row-cols-1 row-cols-sm-2 g-4">
-                    <div class="col d-flex flex-column gap-0">
+                    <div class="col d-flex flex-column gap-0" data-aos="fade-right">
                         <div class="bg-light p-3">
                       <h4 class="fw-bold mb-0 text-orange text-uppercase">I mina egna ord </h4>
                       <p class="text-dark m-0 fw-bold">En livsberättelse om min adoptionshistoria.</p>
@@ -67,7 +73,7 @@
                     </div>
                     </div>
           
-                    <div class="col d-flex flex-column gap-0">
+                    <div class="col d-flex flex-column gap-0" data-aos="fade-left">
                         <div class="bg-light p-3">
                       <h4 class="fw-bold mb-0 text-orange text-uppercase">Spegel spegel på väggen där </h4>
                       <p class="text-dark m-0 fw-bold">Det vackra missfostret</p>
@@ -76,7 +82,7 @@
                     </div>
                     </div>
           
-                    <div class="col d-flex flex-column gap-2">
+                    <div class="col d-flex flex-column gap-2" data-aos="fade-right">
                         <div class="bg-light p-3">
                       <h4 class="fw-bold mb-0 text-orange text-uppercase">Det är inte jag, det är du</h4>
                       <p class="text-dark m-0 fw-bold"> Om förgiftade relationer</p>
@@ -84,7 +90,7 @@
                       <p class="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                     </div>
                     </div>
-                    <div class="col d-flex flex-column gap-2">
+                    <div class="col d-flex flex-column gap-2" data-aos="fade-left">
                     <div class="bg-light p-3">
                       <h4 class="fw-bold mb-0 text-orange text-uppercase">Home sweet home</h4>
                       <p class="text-dark m-0 fw-bold"> En uppväxt bland beroenden och medberoenden</p>
@@ -97,14 +103,15 @@
             </div>
           </section>
           <section id="yoga" class="py-5">
-            <h1 class="section-title">Yoga</h1>
+            <h1 class="section-title" data-aos="zoom-in">Yoga</h1>
             <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
-                    <img src="images/yoga.jpeg" class="img-fluid" alt="">
+                    <img src="images/yoga.jpeg" class="img-fluid" alt="" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                 </div>
-                <div class="col-md-6 my-auto">
-                    <h3></h3>
+                <div class="col-md-6 my-auto" data-aos="fade-left">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                 </div>
@@ -112,23 +119,29 @@
         </div>
           </section>
           <section id="personal-dev">
-            <h1 class="section-title text-white">Personlig utveckling</h1>
+            <h1 class="section-title text-white" data-aos="zoom-in">Personlig utveckling</h1>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center">
-                        <img src="images/yoga.jpeg" class="img-fluid" alt="">
+                        <img src="images/yoga.jpeg" class="img-fluid" alt="" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                     </div>
-                    <div class="col-md-6 bg-white p-3">
-                        <h3></h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                        <br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="col-md-6" data-aos="fade-left">
+                        <div class="card h-100 border-none">
+                          <div class="card-body">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                          </div>
+                        </div>
                     </div>
                 </div>
         </div>
           </section>
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script>AOS.init();</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
