@@ -79,10 +79,24 @@ section {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 section#lectures .lecture {
     transition: 300ms;
 }
 
+=======
+section#lectures {
+    background:url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section#lectures .lecture {
+    transition: 300ms;
+}
+
+>>>>>>> a7bc80512edb786a80c15f533929f46fc82378f6
 section#lectures .lecture:hover {
     transform: scale(1.05);
     cursor: pointer;
@@ -100,6 +114,16 @@ section#lectures .card-body {
     color: #000;
 }
 
+<<<<<<< HEAD
+=======
+section#personal-dev {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/personal-dev.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+>>>>>>> a7bc80512edb786a80c15f533929f46fc82378f6
 .modal-content {
     border-radius: 0;
 }
